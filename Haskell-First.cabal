@@ -1,0 +1,61 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f3923bb40c1f0cf1a772b1abb4eb1759f3fdb86e8945f984c4435597e1cb5c11
+
+name:           Haskell-First
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/tjcouch/Haskell-First#readme>
+homepage:       https://github.com/tjcouch/Haskell-First#readme
+bug-reports:    https://github.com/tjcouch/Haskell-First/issues
+author:         Timothy Couch
+maintainer:     tjcouch1@gmail.com
+copyright:      2020 Timothy Couch
+license:        BSD3
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/tjcouch/Haskell-First
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_Haskell_First
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
+
+executable Haskell-First-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_Haskell_First
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Haskell-First
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite Haskell-First-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_Haskell_First
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Haskell-First
+    , base >=4.7 && <5
+  default-language: Haskell2010
