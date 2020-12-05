@@ -1,6 +1,0 @@
-2020-11-29 16:54:26.861453200000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
-2020-11-29 21:33:02.256696200000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
-2020-11-29 21:35:17.158160500000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
-2020-11-29 21:36:07.204670500000 [$pid(ThreadId 5)] ERROR APP - start debugging failed. user error (ExecResult not found.) : Left "user error (ExecResult not found.)"
-2020-11-29 21:36:28.710064400000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
-2020-11-29 21:37:56.353276600000 [$pid(ThreadId 8)] CRITICAL THREAD_MGR - Critical exit started.
